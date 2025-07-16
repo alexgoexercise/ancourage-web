@@ -1,0 +1,9 @@
+export { default as Header } from './Header';
+export { default as HeroSection } from './HeroSection';
+export { default as AboutSection } from './AboutSection';
+export { default as ESBSection } from './ESBSection';
+export { default as CoursesSection } from './CoursesSection';
+export { default as TeachersSection } from './TeachersSection';
+export { default as StudentWorksSection } from './StudentWorksSection';
+export { default as WorkshopSection } from './WorkshopSection';
+export { default as LocationSection } from './LocationSection'; 
