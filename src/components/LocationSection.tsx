@@ -1,11 +1,12 @@
 import Link from "next/link";
 import styles from "../app/page.module.css";
+import AnimatedSectionTitle from "./AnimatedSectionTitle";
 
 export default function LocationSection() {
   return (
     <section className={styles.locationSection}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Where we are located!</h2>
+        <AnimatedSectionTitle>Where we are located!</AnimatedSectionTitle>
         <div className={styles.mapContainer}>
           <iframe
             className={styles.map}

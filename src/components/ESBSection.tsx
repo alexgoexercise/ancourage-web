@@ -6,12 +6,13 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import styles from "../app/page.module.css";
+import AnimatedSectionTitle from "./AnimatedSectionTitle";
 
 export default function ESBSection() {
   return (
     <section className={styles.esbSection}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Our Proprietary ESB Methodology</h2>
+        <AnimatedSectionTitle>Our Proprietary ESB Methodology</AnimatedSectionTitle>
           {isMobile ? (
            <Swiper
              pagination={{ clickable: true }}

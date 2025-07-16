@@ -18,11 +18,11 @@ export default function HeroSection() {
             className={styles.heroImage}
           />
           <div className={styles.heroText}>
-            <h2>
+            <span>
               Ancourage Academy – MOE-Registered Bishan Tuition Centre Offering
               Personalised Learning from Preschool to JC, Including IP and IB
               Programmes
-            </h2>
+            </span>
             <h2>
               <strong>Languages | Mathematics | Science | Arts</strong>
             </h2>

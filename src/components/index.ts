@@ -6,4 +6,5 @@ export { default as CoursesSection } from './CoursesSection';
 export { default as TeachersSection } from './TeachersSection';
 export { default as StudentWorksSection } from './StudentWorksSection';
 export { default as WorkshopSection } from './WorkshopSection';
-export { default as LocationSection } from './LocationSection'; 
+export { default as LocationSection } from './LocationSection';
+export { default as AnimatedSectionTitle } from './AnimatedSectionTitle'; 

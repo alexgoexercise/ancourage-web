@@ -1,5 +1,6 @@
 import { FaCalculator, FaFlask, FaLanguage, FaPalette } from "react-icons/fa";
 import styles from "../app/page.module.css";
+import AnimatedSectionTitle from "./AnimatedSectionTitle";
 
 const courses = [
   {
@@ -32,7 +33,7 @@ export default function CoursesSection() {
   return (
     <section id="courses" className={styles.coursesSection}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Courses We Offer</h2>
+        <AnimatedSectionTitle>Courses We Offer</AnimatedSectionTitle>
         <div className={styles.coursesGrid}>
           {courses.map((course) => (
             <div key={course.title} className={styles.courseItem}>

@@ -5,6 +5,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import styles from "../app/page.module.css";
+import AnimatedSectionTitle from "./AnimatedSectionTitle";
 
 // Student work images with descriptive alt text
 const studentWorks = [
@@ -26,7 +27,7 @@ export default function StudentWorksSection() {
   return (
     <section className={styles.studentsWorksSection}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Student's Works</h2>              
+        <AnimatedSectionTitle>Student's Works</AnimatedSectionTitle>              
       </div>
       {isMobile ? (
         <Swiper
