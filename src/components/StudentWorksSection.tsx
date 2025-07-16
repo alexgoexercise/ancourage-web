@@ -36,6 +36,7 @@ export default function StudentWorksSection() {
           slidesPerView={1}
           autoplay={{ delay: 2000 }}
           className={styles.studentsWorksSwiper}
+          loop={true}
         >
           {studentWorks.map((work, index) => (
             <SwiperSlide key={index}>
@@ -58,6 +59,7 @@ export default function StudentWorksSection() {
           slidesPerView={3}
           autoplay={{ delay: 2000 }}
           className={styles.studentsWorksSwiper}
+          loop={true}
         >
           {studentWorks.map((work, index) => (
             <SwiperSlide key={index}>

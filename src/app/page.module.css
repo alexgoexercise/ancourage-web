@@ -23,9 +23,9 @@
   --gap-large: clamp(2rem, 5vw, 4rem);
 
   /* Fluid typography */
-  --font-hero: var(--font-hero), sans-serif;
-  --font-inter: var(--font-inter), sans-serif;
-  --font-garamond: var(--font-garamond), serif;
+  --font-hero: 'Roboto', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-garamond: 'Cormorant Garamond', serif;
   
   /* Standardized typography scale for mobile-first approach */
   --h1-size: clamp(3.5rem, 10vw, 8rem);
