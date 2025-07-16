@@ -5,9 +5,10 @@ This project is a re-imagination of the home page from Ancourage Academy's websi
 ## Getting Started
 (Before everything, ensure that you have node.js installed on your laptop. Check out [this link](https://nodejs.org/en/download).)
 
-Firstly, to install all the necessary packages locally, run:
+Firstly, ensure that you are in the project's folder to install all the necessary packages locally, run:
 
 ```bash
+cd <path-to-the-project-folder>
 npm insatll
 ```
 
